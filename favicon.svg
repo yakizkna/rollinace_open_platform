@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2f8f53"/>
+      <stop offset="1" stop-color="#256b3f"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="url(#bg)"/>
+  <!-- 代码尖括号 </> -->
+  <g stroke="#ffffff" stroke-width="4.4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M22 24 L13 32.5 L22 41"/>
+    <path d="M42 24 L51 32.5 L42 41"/>
+    <path d="M35.5 21.5 L28.5 43.5" stroke-width="4"/>
+  </g>
+  <!-- 底部棒球缝线弧（开放平台 = 把对战能力开放出去） -->
+  <path d="M14 51 Q32 43.5 50 51" stroke="#bfe3c9" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-dasharray="1 5"/>
+</svg>
