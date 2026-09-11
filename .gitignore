@@ -15,3 +15,6 @@ dist/
 *.log
 .env
 .env.*
+
+# 本地预览运行时（run_local.sh 生成）
+.run/

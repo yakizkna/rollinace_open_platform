@@ -36,17 +36,26 @@ rollinace_open_platform/
 
 ## 本地预览
 
-任选其一（不需要任何依赖）：
+推荐用仓库内的启停脚本（默认 http://localhost:8095，`PORT=xxxx` 可覆盖）：
+
+```bash
+./run_local.sh start     # 后台启动
+./run_local.sh status    # 运行状态 + 健康检查
+./run_local.sh stop      # 停止
+./run_local.sh restart   # 重启
+```
+
+也可以直接起一个静态服务（不需要任何依赖）：
 
 ```bash
 # Python 3
-python3 -m http.server 8080
+python3 -m http.server 8095
 
 # 或 Node
-npx --yes serve -l 8080 .
+npx --yes serve -l 8095 .
 ```
 
-打开 <http://localhost:8080>。移动端布局可用浏览器开发者工具的设备模拟查看。
+打开 <http://localhost:8095>。移动端布局可用浏览器开发者工具的设备模拟查看。
 
 ---
 
