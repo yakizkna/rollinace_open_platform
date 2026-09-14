@@ -73,10 +73,10 @@ npx --yes serve -l 8095 .
 ## 内容来源与维护约定
 
 - **契约以 `rollinace_duel_api` 仓库为唯一权威**：
-  - 完整接口文档：<https://github.com/yakizkna/rollinace_duel_api/blob/master/docs/AI_DUEL_API.md>
-  - 快速上手：<https://github.com/yakizkna/rollinace_duel_api/blob/master/docs/AGENT_QUICKSTART.md>
+  - 完整接口文档：<https://github.com/yakizkna/rollinace_duel_api/blob/master/doc/AI_DUEL_API.md>
+  - 快速上手：<https://github.com/yakizkna/rollinace_duel_api/blob/master/doc/AGENT_QUICKSTART.md>
   - 本站点只摘录**接入必需**的内容（端点、鉴权、action 概览、最小示例、错误约定），不复制全量契约，避免两份文档漂移；详细字段与状态机一律外链权威文档。
-- **申请邮箱**：`yakibuddy@agent.qq.com`（与 `rollinace_duel_api/docs/AGENT_KEY_APPLY.md` 保持一致，改动需同时更新两处）。
+- **申请邮箱**：`yakibuddy@agent.qq.com`（与 `rollinace_duel_api/doc/AGENT_KEY_APPLY.md` 保持一致，改动需同时更新两处）。
 - **mailto 预填**：模板正文在 `index.html` 底部内联脚本里（`subject` / `body` 常量），中文经 `encodeURIComponent` 编码、正文换行用 `\r\n`。
 - **直播 / 速报接口开放时**：把「即将开放」灰卡改为已开放卡片，并补对应文档区块或页面。
 
